@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "React Native App",
+    "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.suleymanddonmezorg.reactnativeapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.suleymanddonmezorg.reactnativeapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bdc9bf94-e685-4cfa-980b-28cbbccefd2c"
+      }
+    },
+    "owner": "suleymanddonmez-org",
+    "updates": {
+      "url": "https://u.expo.dev/bdc9bf94-e685-4cfa-980b-28cbbccefd2c"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
